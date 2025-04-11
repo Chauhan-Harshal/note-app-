@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(92, 160, 220)
+    paddinng: 30px;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: rgb(231, 153, 153);
+    padding: 20px;
+    border-radius: 15px;
+}
+textarea {
+    width: 100px;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 15px;
+}
+button {
+    padding: 15px;
+    background-color: antiquewhite;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+ul {
+    background-color: aliceblue;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 7px;
+    position: relative;
+}
+button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: lightblue;
+    border: none;
+    cursor: pointer;
+}
